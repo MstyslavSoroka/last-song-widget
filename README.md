@@ -4,6 +4,7 @@ A web widget that displays current or recent playing song using <a href="https:/
 🔧 INSTALLATION
 
 <ol> 
+  <li>Create an account on <a href="https://www.last.fm/home" target="_blank" rel="noopener noreferrer">LastFm</a> and link spotify (or any other music player supported by last.fm)</li>
   <li>Clone this GitHub repository:<br/> <pre><code>git clone https://github.com/MstyslavSoroka/last-song-widget.git </code></pre> </li> 
   <li>Navigate into the project folder:<br/> <pre><code>cd last-song-widget </code></pre> </li>
   <li>Install dependencies:<br/> <pre><code>npm install </code></pre> </li>

@@ -1,4 +1,4 @@
-🎵 Last.fm Now Playing Widget
+🎵 Last.fm Now Playing Widget <br>
 A web widget that displays current or recent playing song using <a href="https://www.last.fm/home" target="_blank" rel="noopener noreferrer">LastFm</a>
 
 🔧 INSTALLATION

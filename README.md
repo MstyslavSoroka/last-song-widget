@@ -1,12 +1,11 @@
-# React + Vite
+🎵 Last.fm Now Playing Widget
+A web widget that displays current or recent playing song using <a href="https://www.last.fm/home" target="_blank" rel="noopener noreferrer">LastFm</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 INSTALLATION
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<ol> 
+  <li>Clone this GitHub repository:<br/> <pre><code>git clone https://github.com/MstyslavSoroka/last-song-widget.git </code></pre> </li> 
+  <li>Navigate into the project folder:<br/> <pre><code>cd last-song-widget </code></pre> </li>
+  <li>Install dependencies:<br/> <pre><code>npm install </code></pre> </li>
+  <li>Get your Last.fm API key from <a href="https://www.last.fm/api" target="_blank" rel="noopener noreferrer">Last.fm API</a></li>
+  <li>Create a <code>.env</code> file in the root directory and add your API key and username:<br/> <pre><code>VITE_LASTFM_API_KEY=your_api_key_here VITE_LASTFM_USERNAME=your_username_here </code></pre> </li> <li>Start the development server:<br/> <pre><code>npm run dev </code></pre> </li>

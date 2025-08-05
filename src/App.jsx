@@ -4,11 +4,13 @@ import './App.css';
 function App() {
   const [track, setTrack] = useState(null);
   const apiKey = import.meta.env.VITE_LASTFM_API_KEY;
+  const username = import.meta.env.VITE_LASTFM_USERNAME;
+
   useEffect(() => {
     async function fetchTrack() {
       try {
         const response = await fetch(
-          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=mstyslavv&api_key=${apiKey}&format=json&limit=1`,
+          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json&limit=1`,
         );
         const data = await response.json();
         setTrack(data.recenttracks.track[0]);
